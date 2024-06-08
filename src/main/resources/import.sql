@@ -11,5 +11,5 @@ insert into forma_pagamento(id, descricao) values(3, 'Dinheiro');
 insert into forma_pagamento(id, descricao) values(4, 'Pix');
 insert into restaurante_forma_pagamento (restaurante_id, forma_pagamento_id) values (1, 1), (1,2), (1,3), (2,1), (2,2);
 insert into produto (id, nome, descricao, preco, ativo, restaurante_id) values (1, 'sushi','peixe cru', 19.90, true, 1);
-insert into produto (id, nome, descricao, preco, ativo, restaurante_id) values (2, 'sashimi', 'salmao cru', 24.90, true, 2)
+insert into produto (id, nome, descricao, preco, ativo, restaurante_id) values (2, 'sashimi', 'salmao cru', 24.90, true, 1)
  
